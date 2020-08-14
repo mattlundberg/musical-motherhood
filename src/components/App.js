@@ -16,7 +16,11 @@ class App extends React.Component{
 
     render(){
         return(
-            <div>Hello World!</div>
+            <div className="ui">
+                <div className="ui container">
+                    <h1>You are the best! You can do all the things! Mwah!!!</h1>
+                </div>
+            </div>
         );
     }
 }
