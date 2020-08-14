@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import App from './components/App';
+import Main from './views/Main';
+
+//import CSS
+import "./scss/custom.scss";
 
 ReactDom.render(
-    <App />,
+    <Main />,
     document.querySelector('#root')
 )
