@@ -1,5 +1,5 @@
 import React from 'react';
-import Kajabi from '../apis/kajabi';
+//import Kajabi from '../apis/kajabi';
 
 class App extends React.Component{
     state = {};
