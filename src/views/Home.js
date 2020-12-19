@@ -1,19 +1,18 @@
-import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button';
+import React from "react";
+import Jumbotron from "../components/Jumbotron/Jumbotron";
 
-const Jumbo =() =>{
-    return(
-        <Jumbotron>
-            <h1>Hello, Emilie!</h1>
-            <p>
-                This is me just playing around and building this for you. It is good practice for me and lits of fun.
-            </p>
-            <p>
-                <Button href="#" variant="primary">Learn more</Button>
-            </p>
-        </Jumbotron>
-    );
-}
+const Home = (props) => {
+  return (
+    <div>
+      <Jumbotron
+        imageUrl=""
+        title="Musical Motherhood Line"
+        text="Description Text"
+        btnUrl=""
+        btnText="Read More"
+      />
+    </div>
+  );
+};
 
-export default Jumbo;
+export default Home;
