@@ -2,10 +2,6 @@ import React from "react";
 import Home from "./Home";
 import TopNav from "../components/Navigation/TopNavigation";
 
-import TabContainer from "react-bootstrap/TabContainer";
-import TabContent from "react-bootstrap/TabContent";
-import TabPane from "react-bootstrap/TabPane";
-
 class Main extends React.Component {
   state = { activeKey: "Home" };
 
